@@ -9,7 +9,8 @@
     "postcss": "postcss src/index.css -o dist/index.css",
     "tailwind": "tailwindcss -c tailwind.config.cjs -o src/output.css",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",
